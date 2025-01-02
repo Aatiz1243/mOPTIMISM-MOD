@@ -1,0 +1,11 @@
+pluginManagement {
+    repositories {
+        gradlePluginPortal() // Gradle plugin portal
+        maven {
+            url 'https://maven.fabricmc.net/' // Fabric Maven repository
+        }
+        mavenCentral() // Maven central repository
+    }
+}
+
+rootProject.name = 'mOPTIMISM'

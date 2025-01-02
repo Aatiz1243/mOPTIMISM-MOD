@@ -1,0 +1,25 @@
+{
+    "schemaVersion": 1,
+    "id": "moptimism",
+    "version": "1.0.0",
+    "name": "mOPTIMISM",
+    "description": "mOPTIMISM is a mod that focuses on Performance Optimization to get the best Minecraft Experience...",
+    "authors": ["Aatiz1243"],
+    "contact": {
+        "homepage": "https://aatiz1243.github.io/mOPTIMISM-MOD",
+        "sources": "https://github.com/Aatiz1243/mOPTIMISM"
+    },
+    "license": "MIT",
+    "icon": "assets/moptimism/textures/icon.png",
+    "environment": "*",
+    "entrypoints": {
+        "main": [
+            "com.mono.moptimism.Main"
+        ]
+    },
+    "depends": {
+        "fabric-api": "*",
+        "modmenu": "*"
+    },
+    "features": ["ModMenu"]
+}
